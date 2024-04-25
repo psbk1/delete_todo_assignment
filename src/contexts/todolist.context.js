@@ -1,8 +1,6 @@
 import { createContext, useContext, useState, useCallback, useEffect, useMemo } from 'react';
 import { v4 as uuidv4, } from 'uuid';
-const ToDoListContext = createContext({
-    toDoList:[]
-});
+const ToDoListContext = createContext(null);
 const ToDoList = [
     {
         type: 'Fruit',
